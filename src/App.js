@@ -1,5 +1,5 @@
 import React from 'react';
-import "./bootstrap/dist/css/bootstrap.min.css";
+import "../bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import Instructions from "./components/Instructions";
 import AddQs from './components/AddQs';
