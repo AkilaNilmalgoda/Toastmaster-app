@@ -42,6 +42,7 @@ this.setState({
               <div className="row ">
                 <div className="input col-md-9 col-sm-12 input-group mb-3 mt-2">
                   <div className="col-12">
+
                     <input
                       className="col-12 form-control"
                       type="text"
@@ -64,7 +65,7 @@ this.setState({
                 </div>
               </div>
             </form>
-            <div>
+            <div className="mt-2">
               <h2>
                 <AddQlist questions={questions} />
               </h2>
