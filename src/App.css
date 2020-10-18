@@ -141,8 +141,8 @@ background: #f2df74
 }
 
 .advert-background{
-  position:absolute;
-  bottom:0;
+  /*position:absolute;
+  bottom:0;*/
   height: 40 px;
 }
 
