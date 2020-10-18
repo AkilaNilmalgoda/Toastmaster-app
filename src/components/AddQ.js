@@ -4,33 +4,6 @@ import { QuestionContext } from "./context"
 
 export default class AddQ extends Component {
     static contextType = QuestionContext
-
-    //state = {
-        //question: "",
-        //questions: [],
-        //questionlist : ""
-    //}
-    
-
-/*handleChange = event => {
-        this.setState({
-        question: event.target.value
-    });
-};
-
-handleSubmit = event => {
-event.preventDefault();
-const newQuestion = this.state.question
-const updatedQuestions = [...this.state.questions, newQuestion]
-this.setState({
-    questions : updatedQuestions,
-    question:"",
-});
-};*/
-
-
-
-
     
     render() {
         const { question, questions,  } = this.context;
@@ -42,16 +15,13 @@ this.setState({
               <div className="row ">
                 <div className="input col-md-9 col-sm-12 input-group mb-3 mt-2">
                   <div className="col-12">
-
                     <input
                       className="col-12 form-control"
                       type="text"
                       name="question"
                       placeholder="Add a question"
                       value={question}
-                      onChange={
-                        handleChange
-                      } /*aria-label="Username" aria-describedby="basic-addon1"*/
+                      onChange={handleChange} 
                     ></input>
                   </div>
                 </div>

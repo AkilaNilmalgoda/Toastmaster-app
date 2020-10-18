@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-//import "bootstrap/dist/css/bootstrap.min.css";
 import Categories from './Categories'
 
 export default class Instructions extends Component {
@@ -34,7 +33,7 @@ export default class Instructions extends Component {
             </div>
             <div className="sdcsedc">
               {this.state.Toggled ? (
-                //<p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                
                 <ul className="list-group mt-2 ">
                   <li className="list-group-item orange font-weight-bold">
                     Before the meeting
@@ -79,10 +78,3 @@ export default class Instructions extends Component {
     }
 }
 
-/*
-<div className="toggle-icon">
-                <span type="button" onClick={Toggler} ><i className="fas fa-angle-double-down fa-2x "></i></span>
-                </div>
-                
-{ <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p> : null}
-                */

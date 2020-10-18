@@ -6,9 +6,6 @@ export default class QNUnit extends Component {
 
   render() {
     const {speaker, handleUpdateQuestion, questionno } = this.props;
-    
-    //const { questiontodisplay, questions, speakingnow } = this.context;
-
     return (
       <div>
         <li className="list-group-item Questionnounit">

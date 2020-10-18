@@ -139,20 +139,14 @@ background: #f2df74
   background: #004165;
   color: #f2df74;
 }
-/*
-.instruction-header{
-  color: brown;
-  background: #004165;
-  height: 48px;
+
+.advert-background{
+  position:absolute;
+  bottom:0;
+  height: 40 px;
 }
 
-.instruction-header h2 {
-  font-size: 2rem;
-  background: #004165;
-  
+.ad-logo{
+  height:45px;
+  width: auto; 
 }
-
-.toggle-icon{
-  background: #004165;
-  color: black;
-}*/

@@ -29,7 +29,6 @@ export default class QuestionProvider extends Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-    //var newID = 1;
     var newID = this.state.id + 1;
     const newQuestion = { title: this.state.question, id: newID };
 
@@ -71,7 +70,6 @@ export default class QuestionProvider extends Component {
     this.setState({
       questions: filteredItems,
       question: selectedItem.title,
-      //id: id,
       Editquestion: true,
     });
     console.log(this.state);
@@ -90,7 +88,6 @@ export default class QuestionProvider extends Component {
   };
 
   handleResetQuestion = () => {
-    //const newqtd = this.state.questions.find((question) => question.id === id);
     this.setState({
       questiontodisplay: 0,
     });

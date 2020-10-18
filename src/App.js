@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Instructions from "./components/Instructions";
 import AddQs from './components/AddQs';
 import ShowQs from './components/ShowQs';
+import Advertising from './components/Advertising'
 import './App.css';
 import {QuestionProvider} from "./components/context"
 
@@ -15,6 +16,7 @@ function App() {
         <Instructions/>
         <AddQs/>
         <ShowQs/>
+        <Advertising/>
       </QuestionProvider>
       
     </div>

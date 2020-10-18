@@ -17,22 +17,24 @@ export default class QNDunit extends Component {
         <div className="row col-12 QNdisplaytitle  d-flex flex-wrap">
           <h1>{title}</h1>
         </div>
-        <div className="QNdisplayinput col-9">
+        <div className="QNdisplayinput ">
           <form onSubmit={handleSpeakerSubmit}>
-            <div className="input-group m-auto ">
-
-              <input
+            <div className="input m-auto row ">
+              <div className="col-md-9 col-sm-12">
+                <input
                 type="text"
-                className="form-control col-md-9 col-sm-12 mt-2 "
+                className="form-control  mt-2 "
                 placeholder="Speaker's name"
                 aria-label="Recipient's username"
                 aria-describedby="button-addon2"
                 name="speaker"
                 value={speaker}
                 onChange={handleSpeakerChange}
-              ></input>
-              <div className="input-group-append col-md-3 col-sm-12 mt-2 ">
-                <button type="submit" className="btn btn-outline-secondary mx-auto  ">
+                ></input>
+              </div>
+              
+              <div className=" col-md-3 col-sm-12 mt-2 ">
+                <button type="submit" className="btn addqbutton mx-auto  ">
                   Add name
                 </button>
               </div>

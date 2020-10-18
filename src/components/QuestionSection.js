@@ -6,8 +6,6 @@ import QuestionDisplay from "./QuestionDisplay"
 export default class QuestionSection extends Component {
     static contextType = QuestionContext
     render() {
-        //const {questiontodisplay} =this.context;
-        //console.log(name);
         return (
           <div className="row mt-2">
             <div className="QN col-lg-3 col-sm-12">

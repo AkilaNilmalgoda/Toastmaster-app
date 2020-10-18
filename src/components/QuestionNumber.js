@@ -16,37 +16,12 @@ export default class QuestionNumber extends Component {
                   title={question.title}
                   id={question.id}
                   questionno= {index +1}
-                  //key=indexof()
                   speaker={question.speaker}
                   handleUpdateQuestion={() => handleUpdateQuestion(question.id)}
-                  //showlog={() => showlog(question.id, this.state.questiontodisplay)}
-                  //handleUpdateQuestion={()=>handleUpdateQuestion(question.id)}
                 />
               );
             })}
-
-            
           </ul>
         );
-
-
-        /*
-        const qnlist = questions.map((question) => (
-          
-          <QNUnit
-            title={question.title}
-            id={question.id}
-            handleUpdateQuestion={() => handleUpdateQuestion(question.id)}
-            
-          />
-        ));
-
-          
-        
-        return (
-            <div>
-                {qnlist}
-            </div>
-        )*/
     }
 } 

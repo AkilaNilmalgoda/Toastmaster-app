@@ -4,7 +4,6 @@ import { QuestionContext } from "./context";
 export default class Qitem extends Component {
   static contextType = QuestionContext;
   render() {
-    //const {Deleteitem}  = this.context;
     const { title, Deleteitem, Edititem } = this.props;
     return (
       <div className="mb-2  ">
