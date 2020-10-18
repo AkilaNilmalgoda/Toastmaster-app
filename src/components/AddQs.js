@@ -20,7 +20,7 @@ export default class AddQs extends Component {
         return (
             <section>
                 <div className="row justify-content-between toggle-heading mt-2 ">
-                    <div className="toggle-heading-name ml-5 ">
+                    <div className="toggle-heading-name ml-5 my-auto ">
                         <Categories heading="Add Questions"></Categories>
                     </div>
 

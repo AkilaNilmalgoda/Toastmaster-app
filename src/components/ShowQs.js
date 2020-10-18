@@ -24,7 +24,7 @@ export default class ShowQs extends Component {
 
 
                 <div className="row justify-content-between toggle-heading mt-2 ">
-                    <div className="toggle-heading-name ml-5 ">
+                    <div className="toggle-heading-name ml-5 my-auto">
                         <Categories heading="Questions"></Categories>
                     </div>
 

@@ -13,6 +13,7 @@ export default class QuestionDisplay extends Component {
                     return(
                         <QNDUnit
                         title = {question.title}
+                        key={question.toString()}
                         />
                     )
                 }

@@ -37,11 +37,13 @@
 .toggle-heading-name {
   background: #004165;
   color: #f2df74;
+  height: 45px;
 }
 
 .toggle-icon {
   color: #772432;
   background: #004165;
+  
 }
 
 .input {

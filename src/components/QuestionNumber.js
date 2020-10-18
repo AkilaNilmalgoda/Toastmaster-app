@@ -18,6 +18,7 @@ export default class QuestionNumber extends Component {
                   questionno= {index +1}
                   speaker={question.speaker}
                   handleUpdateQuestion={() => handleUpdateQuestion(question.id)}
+                  key={question.toString()}
                 />
               );
             })}
