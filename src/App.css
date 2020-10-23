@@ -145,10 +145,10 @@ background: #f2df74
 .advert-background{
   /*position:absolute;
   bottom:0;*/
-  height: 40 px;
+  height: 9vh;
 }
 
 .ad-logo{
-  height:45px;
+  height:9vh;
   width: auto; 
 }

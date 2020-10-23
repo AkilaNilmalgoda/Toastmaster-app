@@ -1,5 +1,12 @@
 import React, { Component } from 'react'
-import MFSCLogo from '../images/MFSC logo.png'
+//import MFSCLogo from '../images/MFSC logo.png'
+//import Pic1 from '../images/Untitled.jpg'
+import MFSCgif from '../images/MFSC gif.gif'
+import WearAMask from '../images/WearAMask.gif'
+//import Pic2 from '../images/Untitled1.jpg'
+import Pic3 from '../images/Untitled2.jpg'
+import {Carousel} from 'react-bootstrap';
+
 
 export default class Advertising extends Component {
     render() {
@@ -7,15 +14,39 @@ export default class Advertising extends Component {
             <section>
 
                 <div className="row mx-auto d-flex justify-content-around fixed-bottom advert-background" >
-                    
-                    
-                    <img className="ad-logo mx-auto" src={MFSCLogo} alt="MFSCLogo"/>
-                       
-                    <h4 className="col-md-5 col-sm-12 mx-auto text-center text-wrap" >Join Moscow Free Speakers Club</h4>
-                    
-                    <h4 className="col-md-3 col-sm-12 mx-auto text-center  text-wrap"> Every other Monday @ 19.00</h4>
-                    <h4 className="col-md-3 col-sm-12 mx-auto text-center text-wrap" >moscowfreespeakers.ru</h4>
-                    
+                    <Carousel 
+                    prevIcon={null} 
+                    nextIcon={null}   
+                    indicators={false} 
+                    fade={true}
+                    autoPlay={true}
+                    interval={12222}
+                    >
+                        <Carousel.Item  > 
+                            <img
+                                className="d-block w-100"
+                                src={WearAMask}
+                                alt="First slide"
+                               
+                            />
+                            
+
+                        </Carousel.Item>
+                        <Carousel.Item interval={1222}>
+                            <img
+                                className="d-block w-100"
+                                src={MFSCgif}
+                                alt="Third slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={Pic3}
+                                alt="Third slide"
+                            />
+                        </Carousel.Item>
+                    </Carousel>
                 </div>              
             
             </section>
