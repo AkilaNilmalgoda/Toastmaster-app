@@ -5,8 +5,8 @@ import MFSCgif from '../images/MFSC gif.gif'
 import WearAMask from '../images/WearAMask.gif'
 //import Pic2 from '../images/Untitled1.jpg'
 import TMMain from '../images/TM Main.gif'
-import {Carousel} from 'react-bootstrap';
-
+//import {Carousel} from 'react-bootstrap';
+import Carousel from 'react-bootstrap/Carousel' 
 
 export default class Advertising extends Component {
     render() {
@@ -21,21 +21,29 @@ export default class Advertising extends Component {
                     fade={true}
                     autoPlay={true}
                     interval={12000}
+                    
                     >
-                        <Carousel.Item > 
+                        <Carousel.Item
+                        interval={2111}
+                         > 
                             <img
                                 className="d-block  "
                                 src={TMMain}
                                 alt="First slide"
+                                
+                                
                                
                             />
                             
 
                         </Carousel.Item>
-                        <Carousel.Item >
+                        <Carousel.Item 
+                        
+                        >
                             <img
                                 className="d-block "
                                 src={MFSCgif}
+                        
                                 alt="Third slide"
                             />
                         </Carousel.Item>
