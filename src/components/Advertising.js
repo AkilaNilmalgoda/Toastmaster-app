@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 import MFSCgif from '../images/MFSC gif.gif'
 import WearAMask from '../images/WearAMask.gif'
 //import Pic2 from '../images/Untitled1.jpg'
-import Pic3 from '../images/Untitled2.jpg'
+import TMMain from '../images/TM Main.gif'
 import {Carousel} from 'react-bootstrap';
 
 
@@ -13,36 +13,36 @@ export default class Advertising extends Component {
         return (
             <section>
 
-                <div className="row mx-auto d-flex justify-content-around fixed-bottom advert-background" >
+                <div className="row  d-flex justify-content-around fixed-bottom advert-background " >
                     <Carousel 
                     prevIcon={null} 
                     nextIcon={null}   
                     indicators={false} 
                     fade={true}
                     autoPlay={true}
-                    interval={12222}
+                    interval={12000}
                     >
-                        <Carousel.Item  > 
+                        <Carousel.Item > 
                             <img
-                                className="d-block w-100"
-                                src={WearAMask}
+                                className="d-block  "
+                                src={TMMain}
                                 alt="First slide"
                                
                             />
                             
 
                         </Carousel.Item>
-                        <Carousel.Item interval={1222}>
+                        <Carousel.Item >
                             <img
-                                className="d-block w-100"
+                                className="d-block "
                                 src={MFSCgif}
                                 alt="Third slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
-                                className="d-block w-100"
-                                src={Pic3}
+                                className="d-block "
+                                src={WearAMask}
                                 alt="Third slide"
                             />
                         </Carousel.Item>

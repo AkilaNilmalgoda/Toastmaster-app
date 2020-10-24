@@ -16,7 +16,7 @@ function App() {
         <Instructions/>
         <AddQs/>
         <ShowQs/>
-        <Advertising/>
+        <Advertising />
       </QuestionProvider>
       
     </div>
