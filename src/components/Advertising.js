@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 //import MFSCLogo from '../images/MFSC logo.png'
 //import Pic1 from '../images/Untitled.jpg'
 import MFSCgif from '../images/MFSC gif.gif'
-import WearAMask from '../images/WearAMask.gif'
+//import WearAMask from '../images/WearAMask.gif'
 //import Pic2 from '../images/Untitled1.jpg'
 import TMMain from '../images/TM Main.gif'
 //import {Carousel} from 'react-bootstrap';
@@ -24,10 +24,10 @@ export default class Advertising extends Component {
                     
                     >
                         <Carousel.Item
-                        interval={2111}
+                        
                          > 
                             <img
-                                className="d-block  "
+                                className="d-block w-100 "
                                 src={TMMain}
                                 alt="First slide"
                                 
@@ -41,19 +41,13 @@ export default class Advertising extends Component {
                         
                         >
                             <img
-                                className="d-block "
+                                className="d-block w-100"
                                 src={MFSCgif}
                         
                                 alt="Third slide"
                             />
                         </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                                className="d-block "
-                                src={WearAMask}
-                                alt="Third slide"
-                            />
-                        </Carousel.Item>
+                        
                     </Carousel>
                 </div>              
             
